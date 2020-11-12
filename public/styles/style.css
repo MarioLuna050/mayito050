@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "kathen";
+    src: url("public/pacifico.ttf");
+}
+h2 {
+  font-family:"kathen" ;
+    color: white;
+    text-align: center;
+}
+body{ background: #525252; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3d72b4, #525252); /* Chrome 10-25,
+Safari 5.1-6 */
+    background: linear-gradient(to right, #3d72b4, #525252); /* W3C, IE 10+/ Edge,
+Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-family: "Cambria Math";
+    text-align: center;
+    font-size: 130%;
+}
+table{
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    box-shadow: 10px 10px 10px #3d73b463;
+    margin: auto;
+    border: 2px solid #3d72b4;
+}
+table::before{
+    content: "";
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color:"";}
+header{
+
+    background: #525252; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3d72b4, #525252); /* Chrome 10-
+25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3d72b4, #525252); /* W3C, IE 10+/ Edge,
+Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: auto;
+    width: 58.5%;
+    box-shadow: 10px 10px 10px #3d73b463;
+    border: 2px solid #3d72b4;}
+footer{border: solid 2px #3d72b4;
+    width: 58.5%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 10px 10px 10px #3d73b463;
+    font-family: star;}
+
